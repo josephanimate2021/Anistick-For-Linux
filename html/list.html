@@ -87,7 +87,13 @@
 				window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=723,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 			}
 		</script>
-		<?php session_start(); if(!isset($_SESSION['user_id'])){ header('Location: login.php'); exit; } else { /* Show users the page! */ }?>
+		<?php session_start(); 
+		if (!isset($_SESSION['user_id'])) { 
+			header('Location: login.php'); 
+			exit; 
+		} else { 
+			// Show users the page! 
+		}?>
 		<style>
 			html {
 				font-family: 'Sailec', Arial, sans-serif;
