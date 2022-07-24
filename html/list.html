@@ -28,6 +28,42 @@
 						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
 					</menu>
 				</div>
+				<div class="char_dropdown button_small">
+					<div>UPLOAD</div>
+					<menu>
+						<div class="char_dropdown button_small">
+							<div>asset</div>
+							<menu>
+								<div class="char_dropdown button_small">
+									<div>img</div>
+									<menu>
+										<a onclick="document.getElementById('bg')">Background</a>
+										<a onclick="document.getElementById('prop')">Prop</a>
+									</menu>
+								</div>
+								<div class="char_dropdown button_small">
+									<div>sound</div>
+									<menu>
+										<a onclick="document.getElementById('bgmusic')">bgmusic</a>
+										<a onclick="document.getElementById('effect')">effect</a>
+										<a onclick="document.getElementById('voice')">voice</a>
+									</menu>
+								</div>
+								<div class="char_dropdown button_small">
+									<div>flash animation</div>
+									<menu>
+										<a onclick="document.getElementById('bgflash')">Background</a>
+										<a onclick="document.getElementById('otherprop')">Other Prop</a>
+									</menu>
+								</div>
+								<a onclick="document.getElementById('video')">Video (Beta)</a>
+							</menu>
+						</div>
+						<a onclick="document.getElementById('file')">Movie</a>
+						<a onclick="document.getElementById('file2')">Character</a>
+						<a onclick="document.getElementById('file3')">Starter</a>
+								
+					</menu>
 				</div>
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 				</div>
@@ -89,15 +125,9 @@
 			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=723,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 		}
 	</script>
-	<?php
-    session_start();
-    if(!isset($_SESSION['user_id'])){
-        header('Location: login.php');
-        exit;
-    } else {
+	<?php session_start(); if(!isset($_SESSION['user_id'])){ header('Location: login.php'); exit; } else {
         // Show users the page!
-    }
-?>
+        }?>
 	<style>
 		html {
 			font-family: 'Sailec', Arial, sans-serif;
