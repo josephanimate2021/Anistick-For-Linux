@@ -54,7 +54,7 @@ module.exports = function (req, res, url) {
 					appCode: "go",
 					page: "",
 					siteId: "go",
-					m_mode: "go",
+					m_mode: "school",
 					isLogin: "Y",
 					isEmbed: 1,
 					ctc: "go",

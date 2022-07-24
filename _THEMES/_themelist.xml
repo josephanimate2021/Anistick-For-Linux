@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <list version="1.0"><fvm_meta theme_code="" is_biz="0"/>
 <theme id="retro" name="Cartoon Classics" file="retro\theme.xml" hitman="N" seg1="retro\retro.zip" seg2="retro\retro2.zip" thumb="ann-stand.swf"/>
+<theme id="community" name="Community Library" file="community\theme.xml" hitman="N" seg1="community\community.zip" seg2="community\community2.zip" thumb="ann-stand.swf"/>
 <theme id="custom" name="Comedy World" file="custom\theme.xml" hitman="N" seg1="custom\custom.zip" seg2="custom\custom2.zip" thumb="" cc_theme_id="family" />
 <theme id="politics2" name="White Houserz" file="politics2\theme.xml" hitman="N" seg1="politics2\politics2.zip" seg2="politics2\politics22.zip" thumb=""/>
 <theme id="anime" name="Anime" file="anime\theme.xml" hitman="N" seg1="anime\anime.zip" seg2="anime\anime2.zip" thumb="" cc_theme_id="anime" />

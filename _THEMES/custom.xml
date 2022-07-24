@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <theme id="custom" name="(experimental)" cc_theme_id="family">
-
+<char id="mac_boy" name="Mac Boy" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="237" money="0" sharing="1">
+    
+	<motion id="walk.swf" name="walk" loop="Y" totalframe="24" enable="Y" aid="239"/>
+	<action id="stand.swf" name="stand with" loop="Y" totalframe="1" enable="Y" aid="238"/>
+    <action id="beer_A.swf" name="give a beer to" loop="Y" totalframe="185" enable="Y" aid="240"/>
+    <action id="beer_B.swf" name="get beer" loop="Y" totalframe="185" enable="Y" aid="241"/>
+    <action id="hi5_A.swf" name="hi five" loop="Y" totalframe="120" enable="Y" aid="242"/>
+    <action id="hi5_B.swf" name="get hi five" loop="Y" totalframe="120" enable="N" aid="243"/>
+    <action id="kickA.swf" name="kick" loop="Y" totalframe="100" enable="N" aid="244"/>
+    <action id="kickB.swf" name="get kick" loop="Y" totalframe="100" enable="N" aid="245"/>
+    <action id="kiss_A.swf" name="kiss" loop="Y" totalframe="145" enable="N" aid="246"/>
+    <action id="kiss_B.swf" name="get kiss" loop="Y" totalframe="145" enable="N" aid="247"/>
+    <action id="kiss_C.swf" name="kiss" loop="Y" totalframe="145" enable="Y" aid="248"/>
+    <action id="kiss_D.swf" name="get kiss" loop="Y" totalframe="145" enable="Y" aid="249"/>
+    <action id="talk.swf" name="talk to" loop="Y" totalframe="1" enable="Y" aid="250"/>
+    <action id="wave_A.swf" name="wave to" loop="Y" totalframe="90" enable="Y" aid="251"/>
+    <action id="wave_B.swf" name="get wave" loop="Y" totalframe="90" enable="N" aid="252"/>
+    <action id="31_love.swf" name="fall in love with" loop="Y" totalframe="100" enable="Y" aid="253"/>
+    <action id="38_love2.swf" name="love" loop="Y" totalframe="100" enable="Y" aid="254"/>
+    <action id="14_cry.swf" name="cry to" loop="Y" totalframe="100" enable="Y" aid="255"/>
+    <action id="gotShoot.swf" name="get shoot by" loop="Y" totalframe="100" enable="N" aid="256"/>
+  </char>
 	<background id="living_room_bg.swf" name="car" enable="Y" is_premium="N" aid="8065" money="0" sharing="0"/>
   <background id="barn_ext_bg.swf" name="Y" enable="Y" default="N" is_premium="N" aid="9700" money="0" sharing="0">
     <colorset enable="Y" aid="9701">

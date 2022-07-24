@@ -2,10 +2,7 @@
 <theme id="retro" name="Cartoon Classics">
   <char id="mac_boy" name="Mac Boy" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="237" money="0" sharing="1">
     
-    <category name="Movements">
 	<motion id="walk.swf" name="walk" loop="Y" totalframe="24" enable="Y" aid="239"/>
-	</category>
-	<category name="Normal">
 	<action id="stand.swf" name="stand with" loop="Y" totalframe="1" enable="Y" aid="238"/>
     <action id="beer_A.swf" name="give a beer to" loop="Y" totalframe="185" enable="Y" aid="240"/>
     <action id="beer_B.swf" name="get beer" loop="Y" totalframe="185" enable="Y" aid="241"/>
@@ -24,7 +21,6 @@
     <action id="38_love2.swf" name="love" loop="Y" totalframe="100" enable="Y" aid="254"/>
     <action id="14_cry.swf" name="cry to" loop="Y" totalframe="100" enable="Y" aid="255"/>
     <action id="gotShoot.swf" name="get shoot by" loop="Y" totalframe="100" enable="N" aid="256"/>
-	</category>
   </char>
   <char id="mac_girl" name="Mac Girl" thumb="stand.swf" facing="left" published="1" default="stand.swf" motion="walk.swf" enable="N" is_premium="N" aid="257" money="0" sharing="1">
     <action id="stand.swf" name="stand with" loop="Y" totalframe="1" enable="Y" aid="258"/>
